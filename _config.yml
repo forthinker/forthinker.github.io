@@ -6,16 +6,54 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: ForThinker
+email: forthinkersid@gmail.com
+description: > Tech Analysis Redefined
+avatar: https://siddheshdabholkar.files.wordpress.com/2015/08/saishlogo.png
 
+
+
+baseurl: "forthinker.github.io" # the subpath of your site, e.g. /blog
+url: "http://www.forthinker.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  Saish1396
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: forthinkersid@gmail.com
+  facebook: forthinker
+  github: forthinker
+  instagram:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  
 # Build settings
+# !! You don't need to change any of the configuration flags below !!
+#
+
 markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.1.0
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
