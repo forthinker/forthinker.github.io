@@ -8,10 +8,10 @@
 # Site settings
 title: ForThinker
 email: forthinkersid@gmail.com
-description: > Tech Analysis Redefined
+description: Tech Analysis Redefined
 avatar: https://siddheshdabholkar.files.wordpress.com/2015/08/saishlogo.png
-
-
+timezone: America/New_York
+tagline: Forward Forethought Forthinker
 
 baseurl: "forthinker.github.io" # the subpath of your site, e.g. /blog
 url: "http://www.forthinker.github.io" # the base hostname & protocol for your site
